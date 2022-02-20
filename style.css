@@ -1,0 +1,85 @@
+.header {
+  display: block;
+  background-color: #bf2d1d;
+  font-size: 20px;
+  font-family: Futura;
+  padding: 5px;
+}
+
+.header-block {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.order {
+  display: block;
+  text-align: center;
+  vertical-align: top;
+  background-color: #b3d2ff;
+  color: white;
+}
+
+.column {
+  background-color: #bf2d1d;
+  display: inline-block;
+  line-height: 1.8;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: Futura;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#logo { height: 200px; }
+
+#subheading {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  font-family: Futura;
+  font-size: 24px;
+  color: #bf2d1d;
+  font-weight: bolder;
+}
+
+#labels {
+  margin: 0px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+#prices {
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 366px) { #break { display: none; } }
+@media screen and (max-width: 835px) { h1 { font-size: 35px; } }
+
+@media screen and (max-width: 700px) {
+  
+  h1 { font-size: 30px; }
+  #logo { height: 125px; }
+  
+  .header {
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .column {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }  
+}
